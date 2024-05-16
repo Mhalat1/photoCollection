@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+</head>
+<body>
+    <div class="haut">
+        <div class="titre">
+            <h1>Photo Collection</h1>
+        </div>
+        <div class= formulaire>
+        <button type="submit" id="form1" value="Chose files...">Chose files...</button>
+        <button type="submit" id="form2" value="No file uploaded">No file uploaded</button>
+        </div>
+        <div class="button">
+            <button type="submit" form="form1" value="No file uploaded" id="input">No file uploaded</button>
+        </div>
+        <div class="recherche">
+            <input type="text" id="search" name="user_name" oninput="searchPhotos()" placeholder="Entrez une valeur ici"/>
+        </div>
+    </div>
+
+    <div class="images">
+        <div id="imageConteneur" >
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</body>
+</html>
